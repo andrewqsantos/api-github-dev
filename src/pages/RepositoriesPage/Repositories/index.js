@@ -1,12 +1,19 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
 
+import Repository from './Repository';
+
 import { Container } from './styles';
 
 const Repositories = () => {
   return (
     <Container>
-      <h1>Repositories</h1>
+      <Repository />
+      <Repository />
+      <Repository />
+      <Repository />
+      <Repository />
+      <Repository />
     </Container>
   );
 };
