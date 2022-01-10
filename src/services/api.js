@@ -9,7 +9,7 @@ export default api;
 
 export const getLangsFrom = (repositories) => {
   let stats = repositories
-    .map((repository) => repository.languague)
+    .map((repository) => repository.language)
     .reduce(
       (data, language) => ({
         ...data,
